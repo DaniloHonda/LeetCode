@@ -5,7 +5,7 @@ Welcome to my repository of LeetCode solutions! This repository contains all my 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Problem Categories](#problem_categories)
+- [Problem Categories](#problem-categories)
 - [How to Use](#how-to-use)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
