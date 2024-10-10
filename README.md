@@ -36,7 +36,7 @@ Each problem will have its own folder that contains:
 
 ## Technologies Used
 
-- **Languages**: Python, C++, Java, JavaScript, etc.
+- **Languages**: Python, C, Java, etc.
 - **LeetCode Platform**: [LeetCode](https://leetcode.com/)
 - **Git and GitHub**: For version control and sharing solutions
 
