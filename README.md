@@ -26,11 +26,11 @@ Each problem will have its own folder that contains:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/username/leetcode-solutions.git
+   git clone https://github.com/username/leetcode.git
    
 2. Navigate to the folder of a specific problem to view its solution:
    ```bash
-   cd leetcode-solutions/array-problems/two-sum
+   cd leetcode/array-problems/two-sum
 
 3. Review the code or run the solution locally in your preferred IDE.
 
