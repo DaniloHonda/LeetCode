@@ -1,0 +1,28 @@
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        ones = 0  # Counter initialized outside the loop
+        print(f"Start: n = {n} (binary: {bin(n)[2:]}), ones = {ones}")
+        
+        while n > 0:
+            print(f"\nBefore shift: n = {n} (binary: {bin(n)[2:]}), ones = {ones}")
+            if n & 1:  # Check if the least significant bit is 1
+                ones += 1
+                print(f"Bit 1 found, ones = {ones}")
+            else:
+                print("Bit 0 found, ones stays the same")
+            n >>= 1  # Right shift to check the next bit
+            print(f"After shift: n = {n} (binary: {bin(n)[2:] if n > 0 else '0'}")
+        
+        print(f"\nFinal result: Total 1s = {ones}")
+        return ones
+
+# Main function to test the code
+def main():
+    number = 11  # Example: 11 in binary is 1011 (has 3 bits 1)
+    print(f"Initial number: {number}")
+    solution = Solution()
+    result = solution.hammingWeight(number)
+    print(f"Verification: Number of 1s = {result}")
+
+if __name__ == "__main__":
+    main()
